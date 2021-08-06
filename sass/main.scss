@@ -1,0 +1,35 @@
+
+@import 'mixins';
+@import 'varables';
+
+
+
+
+header {
+    width: 100% - 20%;
+    height:50vh;
+   
+
+.bg-dark2 {
+    
+    background-color: $bg-color !important;
+    @include commonciode(#000);
+
+     &:hover {
+    
+    background-color: $bg-color-hover !important;
+    @include commonciode(#000);
+}
+
+.nav-item {
+	.nav-link{
+	@include commonciode(#000) ;
+
+	}
+}
+
+}
+
+
+
+}

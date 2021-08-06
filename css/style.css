@@ -1,0 +1,14 @@
+header {
+  width: 80%;
+  height: 50vh; }
+  header .bg-dark2 {
+    background-color: green !important;
+    background-color: #000;
+    color: red !important; }
+    header .bg-dark2:hover {
+      background-color: #000 !important;
+      background-color: #000;
+      color: red !important; }
+    header .bg-dark2 .nav-item .nav-link {
+      background-color: #000;
+      color: red !important; }
